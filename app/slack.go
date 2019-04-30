@@ -47,7 +47,6 @@ type Slack struct {
 	user          string
 	userID        string
 	rtm           *slack.RTM
-	start         time.Time
 	githubChannel *slack.Channel
 }
 
@@ -61,7 +60,6 @@ func (s *Slack) Run(ctx context.Context) error {
 }
 
 func (s *Slack) init() error {
-	s.start = time.Now()
 	if err := s.authorize(); err != nil {
 		return err
 	}

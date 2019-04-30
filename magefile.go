@@ -19,6 +19,8 @@ const (
 var deps = []string{
 	"github.com/CircleCI-Public/circleci-cli",
 	"github.com/magefile/mage",
+	"github.com/google/wire/cmd/wire",
+	"github.com/golangci/golangci-lint/cmd/golangci-lint",
 }
 
 var version string

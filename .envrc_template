@@ -1,0 +1,12 @@
+export GO111MODULE=on
+export GOBIN=$(pwd)/bin
+export PATH=$GOBIN:$PATH
+export GOBOT_VERSION=$(cat VERSION)
+export GOBOT_LOGGING_LEVEL=debug
+export GOBOT_GCP_PROJECT_ID=""
+export GOBOT_GCP_SERVICE_ACCOUNT_CREDENTIAL=$(cat path/to/gcp_credential.json)
+export GOBOT_GITHUB_WEBHOOK_SECRET=""
+export GOBOT_GITHUB_PR_NOTIFICATION_CHANNEL=""
+export GOBOT_SLACK_BOT_USER_OAUTH_ACCESS_TOKEN=""
+export GOBOT_MONGO_DSN="mongodb://localhost:27017"
+export GOBOT_MONGO_DATABASE="gobot-local"

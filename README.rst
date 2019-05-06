@@ -12,7 +12,7 @@ Slack
 -----
 
 1. register your app at here (https://api.slack.com/apps?new_app=1)
-2. go app menu > Bot User then, cureate bot user
+2. go app menu > Bot User then, create bot user
 3. go app menu > OAuth & Permission then, Install App to Workspace
 4. set app endpoint at Interactive Components > Request URL
 
